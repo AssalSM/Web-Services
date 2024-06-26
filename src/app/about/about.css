@@ -1,0 +1,8 @@
+.backgrouned{
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-image: url("../../../public/creative_photography.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}

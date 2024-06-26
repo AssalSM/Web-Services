@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+.description {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  font-size: 0.85rem;
+  max-width: var(--max-width);
+  width: 100%;
+  z-index: 2;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.description p {
+  position: relative;
+  margin: 0;
+  padding: 1rem;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  max-width: 30ch;
+  text-wrap: balance;
+}
+
+.textlogo {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.links {
+  
+  display: flex;
+  align-items: center;
+  width: 55%;
+  font-weight: 300;
+  font-size: 1.3rem;
+  justify-content: space-around;
+}
+.Link{
+  font-family: "Tajawal", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.Link:hover {
+  color: #3c57db;
+  border-bottom: 1px solid #3c57db;
+}
+
+.menu {
+  margin-right: 20px;
+  font-size: 25px;
+  display: none;
+}
+
+.fixed {
+ 
+  position: fixed;
+  inset: 0;
+  z-index: 11;
+  /* background-color: rgba(65, 65, 74, 0.91);
+  backdrop-filter: blur(0.000000001rem); */
+}
+
+.links2 {
+  margin-inline: auto;
+  margin-top: 40px;
+  width: 35%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background: #2f2f2f;
+  margin-right: 0;
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding-block: 0.7rem;
+}
+.Link2 {
+  font-size: 12px;
+  justify-content: flex-start;
+  padding-block: 0.7rem;
+}
+.Link2:hover {
+  color: #3c57db;
+  border-bottom: 1px solid #3c57db;
+}
+.close {
+  background: none;
+  z-index: 12;
+  /* border: none;
+  padding: 0; */
+  /* font: inherit;
+  cursor: pointer;
+  outline: inherit; */
+  font-size: 35px;
+  color: rgb(234, 18, 18);
+  
+ 
+}
+
+@media (max-width: 800px) {
+  .links {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
