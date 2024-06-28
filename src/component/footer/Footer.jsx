@@ -43,7 +43,7 @@ function Footer() {
       <li className="menu__item"><Link className="menu__link" href="#">Contact</Link></li>
 
     </ul> */}
-    <p>&copy;2022 mohammed assal | All Rights Reserved</p>
+    <p>&copy;2022 Mohammed Assal | All Rights Reserved</p>
   </footer>
     
   )
