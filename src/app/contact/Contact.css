@@ -1,10 +1,10 @@
 section.contact-us .sd {
-  color: var(--subtitle);
+  /* color: var(--subtitle); */
   font-size: 1.8rem;
   margin-right: 1rem;
 }
 section.contact-us .title {
-  color: var(--title);
+  /* color: var(--title); */
   font-size: 2.1rem;
   margin-bottom: 1rem;
 }
