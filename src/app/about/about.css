@@ -9,6 +9,7 @@
 .section{
     padding: 90px;
     text-align: center;
+
 }
 /* .prp1{
 width: 50%;
@@ -20,7 +21,7 @@ align-items: center;
 @media (max-width: 1000px) {
 
     .section{
-        padding: 6px;
+        padding: 7px;
         text-align: center;
     }
 
