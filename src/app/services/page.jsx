@@ -1,7 +1,7 @@
 //import component
 import Header from "@/component/header/Header";
 import Footer from "@/component/footer/Footer";
-import Slider from "@/component/slider";
+import Slider from "../../component/Slider";
 import React from "react";
 import Link from "next/link";
 
