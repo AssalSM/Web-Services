@@ -19,19 +19,19 @@ function Footer() {
       <div className="wave" id="wave4"></div>
     </div>
     <ul className="social-icon">
-      <li className="social-icon__item"><a class="social-icon__link" href="#">
+      <li className="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/profile.php?id=61560766962477&mibextid=ZbWKwL">
           <FaFacebookF/>
         </a></li>
-      <li className="social-icon__item"><a class="social-icon__link" href="#">
+      <li className="social-icon__item"><a class="social-icon__link" href="https://wa.me/+212772053615">
           <BsWhatsapp/>
         </a></li>
-      <li className="social-icon__item"><a class="social-icon__link" href="#">
+      <li className="social-icon__item"><a class="social-icon__link" href="https://github.com/AssalSM">
           <FaGithub />
         </a></li>
-      <li className="social-icon__item"><a class="social-icon__link" href="#">
+      {/* <li className="social-icon__item"><a class="social-icon__link" href="#">
           <FaInstagram />
-        </a></li>
-        <li className="social-icon__item"><a class="social-icon__link" href="#">
+        </a></li> */}
+        <li className="social-icon__item"><a class="social-icon__link" href="https://www.tiktok.com/@webservices67?_t=8nZ5doCAmSD&_r=1">
           <FaTiktok/>
         </a></li>
     </ul>

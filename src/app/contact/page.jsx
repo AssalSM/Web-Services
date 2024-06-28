@@ -91,7 +91,7 @@ function page() {
           </p>
           <span className="spancontact">
             <FaWhatsapp />
-            <p> +212 983939982</p>
+            <p>+212 772-053615</p>
           </span>
           <Line />
           <span className="spancontact">
