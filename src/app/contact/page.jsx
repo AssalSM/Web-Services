@@ -10,7 +10,7 @@ import styles from "../page.module.css";
 import { useForm, ValidationError } from "@formspree/react";
 import Header from "@/component/header/Header";
 
-function page() {
+function Page() {
   const [state, handleSubmit] = useForm("mjvnrwkr");
 
   return (
@@ -115,4 +115,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
