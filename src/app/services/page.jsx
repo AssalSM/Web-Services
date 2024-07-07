@@ -72,7 +72,7 @@ function Page() {
             <div className="services">
               <div className="title">
                 <FaShopify />
-                <p>Ecommrce</p>
+                <p>E-commerce</p>
               </div>
               <p className="parag">
                 Designing and developing e-commerce websites using cutting-edge
