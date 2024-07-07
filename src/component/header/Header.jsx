@@ -5,7 +5,7 @@ import Link from "next/link";
 import styles from "./Header.module.css";
 import Image from "next/image";
 import { useState } from "react";
-
+import Head from 'next/head';
 // import icon
 import { GoHome } from "react-icons/go";
 import { IoLogoFreebsdDevil } from "react-icons/io";
@@ -19,6 +19,15 @@ function Header() {
   const [showModal, setshowModal] = useState(false);
 
   return (
+
+    <>
+      <Head>
+        <title>Welcome to Our Website Creation Services</title>
+        <meta name="description" content="We specialize in creating portfolio, e-commerce, and service websites. Contact us to get started." />
+        <meta name="keywords" content="website creation, portfolio websites, e-commerce websites, service websites, web development" />
+        <meta name="author" content="Your Company Name" />
+      </Head>
+   
     <div className={styles.description}>
       <div>
         <Link
@@ -34,7 +43,7 @@ function Header() {
             height={60}
             priority
           />
-          WebServices
+          WebSiteServices
         </Link>
       </div>
       <div className={styles.links}>
@@ -136,6 +145,7 @@ function Header() {
         </div>
       )}
     </div>
+    </>
   );
 }
 

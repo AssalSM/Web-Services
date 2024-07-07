@@ -3,8 +3,19 @@ import React from "react";
 import styles from "../page.module.css";
 
 import "./about.css";
+
+
+export const metadata = {
+  title: 'About Us - Website Creation Experts',
+  description: 'Learn more about our team and our mission. We are dedicated to providing top-notch website creation services for your business.',
+  keywords:"about us, website creation, web development, portfolio websites, e-commerce websites, service websites"
+};
+
+
 function page() {
   return (
+    <>
+   
     <div>
       <div className={styles.main}>
         <Header />
@@ -13,7 +24,7 @@ function page() {
       <section className="section" >
         <div>
           <p className="prp1">
-          Welcome to WebServices your go-to solution for professional and affordable website creation. Whether you need a portfolio, an e-commerce site, or a service-based website, we ve got you covered. Our mission is to bring your vision to life with high-quality design and development, tailored to meet your specific needs.
+          Welcome to WebSiteServices your go-to solution for professional and affordable website creation. Whether you need a portfolio, an e-commerce site, or a service-based website, we ve got you covered. Our mission is to bring your vision to life with high-quality design and development, tailored to meet your specific needs.
           </p>
           <h1>How We Work</h1>
           <p>
@@ -35,6 +46,7 @@ function page() {
         </div>
       </section>
     </div>
+    </>
   );
 }
 

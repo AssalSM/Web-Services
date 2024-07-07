@@ -22,7 +22,7 @@ function Footer() {
       <li className="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/profile.php?id=61560766962477&mibextid=ZbWKwL">
           <FaFacebookF/>
         </a></li>
-      <li className="social-icon__item"><a class="social-icon__link" href="https://wa.me/+212772053615">
+      <li className="social-icon__item"><a class="social-icon__link" href="https://wa.me/+212768866259">
           <BsWhatsapp/>
         </a></li>
       <li className="social-icon__item"><a class="social-icon__link" href="https://github.com/AssalSM">

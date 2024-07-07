@@ -1,8 +1,15 @@
 // import from next
+export const metadata = {
+  title: 'Welcome to Our Website Creation Services',
+  description: 'We specialize in creating portfolio, e-commerce, and service websites. Contact us to get started.',
+  keywords:"services, website creation, portfolio websites, e-commerce websites, service websites, web development"
+}; 
+
 import Image from "next/image";
 import styles from "./page.module.css";
 import Header from "@/component/header/Header";
 import Footer from "@/component/footer/Footer";
+
 
 
 export default function Home() {

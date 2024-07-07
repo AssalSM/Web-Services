@@ -10,10 +10,24 @@ import styles from "../page.module.css";
 import { useForm, ValidationError } from "@formspree/react";
 import Header from "@/component/header/Header";
 
+
+
+
+// export const metadata = {
+//   title: 'Contact Us - Get in Touch',
+//   description: 'Reach out to us for any inquiries or support related to our website creation services. We are here to help you!',
+//   keywords:"contact, website creation, web development, portfolio websites, e-commerce websites, service websites"
+// };
+
 function Page() {
   const [state, handleSubmit] = useForm("mjvnrwkr");
 
   return (
+    <>
+    
+   
+    
+  
     <div className={styles.main}>
       <Header />
       <div className="flexcontact">
@@ -91,7 +105,7 @@ function Page() {
           </p>
           <span className="spancontact">
             <FaWhatsapp />
-            <p>+212 772-053615</p>
+            <p>+212 768-866259</p>
           </span>
           <Line />
           <span className="spancontact">
@@ -112,6 +126,7 @@ function Page() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 
