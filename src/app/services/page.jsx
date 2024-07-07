@@ -34,7 +34,7 @@ const images3 = [
   "/services/services3.jpg",
 ];
 export const metadata = {
-  title: 'Contact Us - Get in Touch',
+  title: 'Our Services - Portfolio, E-commerce, and Service Websites',
   description: 'We offer a range of website creation services including portfolio, e-commerce, and service websites. Discover how we can help you.',
   keywords:"services, website creation, portfolio websites, e-commerce websites, service websites, web development"
 };
