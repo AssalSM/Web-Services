@@ -19,7 +19,7 @@ function Footer() {
       <div className="wave" id="wave4"></div>
     </div>
     <ul className="social-icon">
-      <li className="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/profile.php?id=61560766962477&mibextid=ZbWKwL">
+      <li className="social-icon__item"><a class="social-icon__link" href="https://www.facebook.com/profile.php?id=61562506645322">
           <FaFacebookF/>
         </a></li>
       <li className="social-icon__item"><a class="social-icon__link" href="https://wa.me/+212768866259">

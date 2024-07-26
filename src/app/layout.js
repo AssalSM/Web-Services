@@ -10,10 +10,10 @@ export const metadata = {
   description: 'Creative website now',
   keywords:"services, website creation, portfolio websites, e-commerce websites, service websites, web development",
   icons: {
-    icon: '/logodevser.jpeg',  
+    icon: '/logocard-modified.png',  
   },
 };
-let x = 7
+
 
 export default function RootLayout({ children }) {
   return (

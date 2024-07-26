@@ -110,17 +110,17 @@ function Page() {
           <Line />
           <span className="spancontact">
             <FaFacebookF />
-            <p> WebServices</p>
+            <p> AssalDev</p>
           </span>
           <Line />
           <span className="spancontact">
             <FaInstagram />
-            <p> @WebServices</p>
+            <p> @AssalDev</p>
           </span>
           <Line />
           <span className="spancontact">
             <FaTiktok />
-            <p> @WebServices</p>
+            <p> @AssalDev</p>
           </span>
           <Line />
         </div>

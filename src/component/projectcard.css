@@ -1,0 +1,44 @@
+.allprojectdetails{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.card{
+    padding: 10px;
+   width: 30%;
+   
+    gap: 2rem;
+    text-align: center;
+    margin: 5px;
+}
+.imageproject{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+@media (max-width: 1000px) {
+    .card{
+       width: 40%;
+    
+    }
+    .title{
+        font-size: 19px;
+    }
+  }
+  @media (max-width: 780px) {
+    .card{
+       width: 100%;
+    
+    }
+    .imageproject{
+        width: 240px;
+        height: 150px;
+        border-radius: 10px;
+    }
+    .title{
+        font-size: 15px;
+    }
+  }
+  

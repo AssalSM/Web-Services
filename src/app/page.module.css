@@ -14,7 +14,7 @@
   position: relative;
   padding: 4rem 0;
   margin: auto;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 }
 
 .center::before {
@@ -68,6 +68,17 @@
   width: 80%;
 }
 
+@media (max-width: 1000px) {
+  .title {
+    font-size: 20px;
+   
+  font-weight: 300;
+  }
+  .logo {
+    width: 300px;
+    height: 300px;
+  }
+}
 @media (max-width: 800px) {
   /* .welcome{display: none;} */
   .welcome {
@@ -80,17 +91,17 @@
     margin-bottom: 12px;
   }
   .parg {
- 
+    font-size: 17px;
     margin-bottom: 12px;
     width: 100%;
   }
   .center {
     flex-direction: column;
-    padding: 6rem 0;
+    padding: 3rem 0;
   }
   .logo {
-    width: 90%;
-    height: 300px;
+    display: none;
+    
   }
   header button.menu {
     display: block;

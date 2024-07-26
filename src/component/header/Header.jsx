@@ -111,8 +111,17 @@ function Header() {
               // target="_blank"
               rel="noopener noreferrer"
             >
-              <GoHome />
+              {/* <GoHome /> */}
               Home
+            </Link>
+            <Link
+              className={styles.Link2}
+              href="/#project"
+              // target="_blank"
+              rel="noopener noreferrer"
+            >
+              
+              Projects
             </Link>
             <Link
               className={styles.Link2}
@@ -120,8 +129,8 @@ function Header() {
               // target="_blank"
               rel="noopener noreferrer"
             >
-              <PiExclamationMarkBold />
-              About
+              {/* <PiExclamationMarkBold /> */}
+              About Us
             </Link>
             <Link
               className={styles.Link2}
@@ -129,8 +138,8 @@ function Header() {
               // target="_blank"
               rel="noopener noreferrer"
             >
-              <IoLogoFreebsdDevil />
-              services
+              {/* <IoLogoFreebsdDevil /> */}
+              Services
             </Link>
             <Link
               className={styles.Link2}
