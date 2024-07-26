@@ -9,13 +9,13 @@ export const metadata = {
 
 import Image from "next/image";
 import styles from "./page.module.css";
-import Header from "@/component/header/Header";
-import Footer from "@/component/footer/Footer";
+import Header from "../component/header/Header";
+import Footer from "../component/footer/Footer";
 
 import { SiCodeproject } from "react-icons/si";
-import Projectcard from "@/component/projectcard";
+import Projectcard from "../component/Projectcard";
 import { FaThList } from "react-icons/fa";
-import { TfiLayoutListPost } from "react-icons/tfi";
+
 export default function Home() {
   return (
     <main className={styles.main}>
