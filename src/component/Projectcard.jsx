@@ -1,61 +1,72 @@
 "use client";
 
 import Image from "next/image";
-import './projectcard.css'
+import "./projectcard.css";
+import Link from "next/link";
+import { BsWhatsapp } from "react-icons/bs";
 
 const projectsData = [
-    {
-      id: 1,
-      title: "React Portfolio Website",
-      description: "Project 1 description",
-      image: "/projects/1.png",
-      
-      gitUrl: "/",
-     
-    },
-    {
-      id: 2,
-      title: "Potography Portfolio Website",
-      description: "Project 2 description",
-      image: "/projects/2.png",
-      gitUrl: "/",
-     
-    },
-    {
-      id: 3,
-      title: "E-commerce Application",
-      description: "Project 3 description",
-      image: "/projects/3.png",
-      gitUrl: "/",
-    },
-    {
-      id: 4,
-      title: "Food Ordering Application",
-      description: "Project 4 description",
-      image: "/projects/4.png",
-      gitUrl: "/",
-    },
-   
-   
-  ];
+  {
+    id: 1,
+    title: "E-commerce Application",
+    description: "Project 1 E-commerce",
+    image: "/projects/10.jpeg",
+    gitUrl: "https://shopsy-test-project.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Food Ordering Application",
+    description: "Project 2 Food ",
+    image: "/projects/7.jpeg",
+    gitUrl: "https://food-store-test.vercel.app/",
+  },
+ 
+  {
+    id: 3,
+    title: "React Portfolio Website",
+    description: "Project 3 Portfolio",
+    image: "/projects/1.png",
+    gitUrl: "https://shopsy-test-project.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "developer Portfolio Website",
+    description: "Project 4 portfolio",
+    image: "/projects/9.jpeg",
+    gitUrl: "https://portfolio-test-gules.vercel.app/",
+  },
+];
 function Projectcard() {
-    
   return (
     <div className="allprojectdetails">
-     {projectsData.map((item) => {
-          return (
-            <article key={item.imgpath} className="card">
-             <Image width={200} height={200} className="imageproject" src={item.image} alt="image" />
-              <div  className="  box">
-                <h1 className="title">{item.title}</h1>
-                <p className="subtitle">{item.description}</p>
-                
+      {projectsData.map((item) => {
+        return (
+          <article key={item?.imgpath} className="card">
+            <Image
+              width={200}
+              height={200}
+              className="imageproject"
+              src={item.image}
+              alt="image"
+            />
+            <div className="  box">
+              <h1 className="title">{item.title}</h1>
+              <p className="subtitle">{item.description}</p>
+            </div>
+            <div className="viewandshare">
+              <div className="share">
+                <BsWhatsapp />
+                <p>share</p>
               </div>
-            </article>
-          );
-        })}
+              <Link className="viewproject" href={item?.gitUrl}>
+                view project
+              </Link>
+            </div>
+          </article>
+        );
+      })}
     </div>
-  )
+  );
 }
 
-export default Projectcard
+export default Projectcard;

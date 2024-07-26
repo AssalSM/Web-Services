@@ -25,7 +25,7 @@ function Header() {
         <title>Welcome to Our Website Creation Services</title>
         <meta name="description" content="We specialize in creating portfolio, e-commerce, and service websites. Contact us to get started." />
         <meta name="keywords" content="website creation, portfolio websites, e-commerce websites, service websites, web development" />
-        <meta name="author" content="Your Company Name" />
+        <meta name="author" content="Modern Web" />
       </Head>
    
     <div className={styles.description}>
@@ -43,7 +43,7 @@ function Header() {
             height={60}
             priority
           />
-          WebSiteServices
+          ModernWeb
         </Link>
       </div>
       <div className={styles.links}>
@@ -115,6 +115,9 @@ function Header() {
               Home
             </Link>
             <Link
+            onClick={()=>{
+              setshowModal(false)
+            }}
               className={styles.Link2}
               href="/#project"
               // target="_blank"

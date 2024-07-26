@@ -32,7 +32,7 @@ a {
   /* flex-direction: column; */
   width: 87%;
   margin-inline: auto;
-
+border-top: 1px solid rgb(86, 86, 86);
 margin-bottom: 150px;
 }
 .titleallproject{

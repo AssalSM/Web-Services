@@ -100,7 +100,8 @@
     padding: 3rem 0;
   }
   .logo {
-    display: none;
+    width: 80%;
+    height: 250px;
     
   }
   header button.menu {

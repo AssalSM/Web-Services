@@ -6,9 +6,10 @@
    
 }
 .card{
+
     padding: 10px;
    width: 30%;
-   
+   border-bottom: 1px solid rgb(49, 46, 46);
     gap: 2rem;
     text-align: center;
     margin: 5px;
@@ -18,6 +19,32 @@
     height: 150px;
     border-radius: 10px;
 }
+.subtitle{
+    column-gap: 2rem;
+    color: gray;
+}
+.viewandshare{
+    margin-inline: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    font-size: 19px;
+}
+.viewproject{
+    column-gap: 0.5rem;
+    color: rgb(44, 44, 248);
+}
+.share{
+    gap: 0.6rem;
+    font-size: 15px;
+ align-items: center;
+    display: flex;
+    color: rgb(40, 208, 40);
+}
+
 @media (max-width: 1000px) {
     .card{
        width: 40%;
@@ -31,6 +58,13 @@
     .card{
        width: 100%;
     
+    }
+    .viewandshare{
+        margin-inline: auto;
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .imageproject{
         width: 240px;

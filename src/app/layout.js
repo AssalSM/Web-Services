@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: 'Creative Website Services',
   description: 'Creative website now',
-  keywords:"services, website creation, portfolio websites, e-commerce websites, service websites, web development",
+  keywords:"services, website creation, portfolio websites, e-commerce websites, service websites, web development , Modern Website",
   icons: {
     icon: '/logocard-modified.png',  
   },
