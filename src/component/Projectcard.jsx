@@ -4,6 +4,7 @@ import Image from "next/image";
 import "./projectcard.css";
 import Link from "next/link";
 import { BsWhatsapp } from "react-icons/bs";
+import { WhatsappShareButton } from "react-share";
 
 const projectsData = [
   {
@@ -54,10 +55,13 @@ function Projectcard() {
               <p className="subtitle">{item.title}</p>
               <p className="onetitle">{item.description}</p>
             <div className="viewandshare">
-              <div className="share">
+              <WhatsappShareButton url={item.gitUrl} >
+                <div className="share">
                 <BsWhatsapp />
                 <p>Share</p>
-              </div>
+                </div>
+                
+              </WhatsappShareButton>
               <Link className="viewproject" href={item?.gitUrl}>
                 View Project
               </Link>
