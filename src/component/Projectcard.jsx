@@ -49,17 +49,17 @@ function Projectcard() {
               src={item.image}
               alt="image"
             />
-            <div className="  box">
-              <p className="title">{item.title}</p>
-              <p className="subtitle">{item.description}</p>
-            </div>
+            
+              {/* <p className="title"></p> */}
+              <p className="subtitle">{item.title}</p>
+           
             <div className="viewandshare">
               <div className="share">
                 <BsWhatsapp />
-                <p>share</p>
+                <p>Share</p>
               </div>
               <Link className="viewproject" href={item?.gitUrl}>
-                view project
+                View Project
               </Link>
             </div>
           </article>

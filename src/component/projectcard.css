@@ -19,6 +19,10 @@
     height: 150px;
     border-radius: 10px;
 }
+.box{
+    flex-direction: column;
+    text-align: center;
+}
 .subtitle{
     margin-block: 1rem;
     color: gray;
@@ -35,12 +39,12 @@
     font-size: 19px;
 }
 .viewproject{
-    color: rgb(44, 44, 248);
+    color: rgb(147, 147, 254);
 }
 .share{
     gap: 0.6rem;
     font-size: 15px;
- align-items: center;
+    align-items: center;
     display: flex;
     color: rgb(40, 208, 40);
 }
@@ -50,9 +54,7 @@
        width: 40%;
     
     }
-    .title{
-        font-size: 19px;
-    }
+   
   }
   @media (max-width: 780px) {
     .card{
