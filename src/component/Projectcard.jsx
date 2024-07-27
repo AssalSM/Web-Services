@@ -50,7 +50,7 @@ function Projectcard() {
               alt="image"
             />
             <div className="  box">
-              <h1 className="title">{item.title}</h1>
+              <p className="title">{item.title}</p>
               <p className="subtitle">{item.description}</p>
             </div>
             <div className="viewandshare">
