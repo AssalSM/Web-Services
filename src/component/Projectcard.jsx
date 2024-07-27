@@ -51,7 +51,7 @@ function Projectcard() {
             />
             
               {/* <p className="title"></p> */}
-              <p className="title">{item.title}</p>
+              <p className="subtitle">{item.title}</p>
            
             <div className="viewandshare">
               <div className="share">

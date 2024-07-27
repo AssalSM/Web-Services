@@ -25,7 +25,8 @@
 }
 .subtitle{
     margin-block: 1rem;
-    color: gray;
+    color: rgb(251, 250, 250);
+    
 }
 .viewandshare{
     margin-inline: auto;
@@ -34,10 +35,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.title{
-    margin-block: 1rem;
-    font-size: 19px;
-}
+
 .viewproject{
     color: rgb(147, 147, 254);
 }
