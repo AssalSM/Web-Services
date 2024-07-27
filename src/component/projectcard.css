@@ -20,7 +20,7 @@
     border-radius: 10px;
 }
 .subtitle{
-    column-gap: 2rem;
+    margin-block: 1rem;
     color: gray;
 }
 .viewandshare{
@@ -34,7 +34,6 @@
     font-size: 19px;
 }
 .viewproject{
-    column-gap: 0.5rem;
     color: rgb(44, 44, 248);
 }
 .share{
