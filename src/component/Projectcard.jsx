@@ -50,9 +50,9 @@ function Projectcard() {
               alt="image"
             />
             
-              {/* <p className="title"></p> */}
+             
               <p className="subtitle">{item.title}</p>
-           
+              <p className="onetitle">{item.description}</p>
             <div className="viewandshare">
               <div className="share">
                 <BsWhatsapp />

@@ -24,9 +24,13 @@
     text-align: center;
 }
 .subtitle{
-    margin-block: 1rem;
+ 
     color: rgb(251, 250, 250);
-    
+
+}
+.onetitle{
+    margin-block: 1rem;
+    color: rgb(88, 86, 86);
 }
 .viewandshare{
     margin-inline: auto;
