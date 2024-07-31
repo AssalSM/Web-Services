@@ -68,6 +68,7 @@
   width: 80%;
 }
 
+
 @media (max-width: 1000px) {
   .title {
     font-size: 20px;
@@ -84,6 +85,10 @@
   .welcome {
     width: 80%;
     margin-inline: auto;
+  }
+  .logo2{
+  width: 100px;
+  height: 100px;
   }
   .title {
     font-size: 25px;

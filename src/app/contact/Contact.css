@@ -1,125 +1,112 @@
-section.contact-us .sd {
-  /* color: var(--subtitle); */
-  font-size: 1.8rem;
-  margin-right: 1rem;
-}
-section.contact-us .title {
-  /* color: var(--title); */
-  font-size: 2.1rem;
-  margin-bottom: 1rem;
-}
-
-.sub-title {
- 
-  color: #7c7a7a;
-  margin-bottom: 2rem;
-  line-height: 15px;
-}
-
-section.contact-us label {
-  color: var(--subtitle);
-}
-section.contact-us #email,
-section.contact-us #message {
-  all: unset;
-  background-color: rgb(63, 63, 70, 0.15);
-  border: 1px solid rgb(63, 63, 70);
-  width: 16rem;
-  padding: 0.5rem 1rem;
-  margin-left: 1rem;
-  border-radius: 5px;
-  transition: 0.4s;
-  font-size: 1.1rem;
-}
-section.contact-us #email:focus,
-section.contact-us #message:focus {
-  border: 1px solid rgb(45, 212, 191);
-}
-
-section.contact-us #email:hover,
-section.contact-us #message:hover {
-  border: 1px solid rgb(45, 212, 191);
-}
-section.contact-us #message {
-  min-height: 9rem;
-  resize: vertical;
-}
-
-section.contact-us .submit {
-  background-color: rgb(36, 37, 46, 1);
-  border: 1px solid #626fce;
-  padding: 0.5rem 1.5rem;
-  text-align: center;
-  font-size: 1.2rem;
-  border-radius: 7px;
-  text-transform: capitalize;
-  margin-top: 1.2rem;
-}
-
-section.contact-us .submit:hover {
-  scale: 0.93;
-  transition: 0.3s;
-}
-.flex1 {
-  margin-block: 20px;
-}
-
 .flexcontact {
-  gap: 13rem;
-  margin-bottom: 40px;
+  margin-inline: auto;
+  height: 90vh;
+  width: 85%;
+align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.textinfo{
+  text-align: center;
+}
+.partinfo {
+  margin-left: 0;
+  margin-block: auto;
+  width: 40%;
+  padding-block: 40px;
+  flex-direction: column;
+  text-align: center;
+}
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(37, 175, 240);
+}
+.sub-title {
+  font-size: 13px;
+  color: gray;
+}
+.socialicon {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
 }
 .spancontact {
   gap: 2rem;
-  margin-block: 30px;
+  margin-block: 20px;
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 15px;
 }
-.partemail{
+.partemail {
   width: 50%;
+  margin-block: auto;
 }
-.partinfo {
-  width: 50%;
-  padding-block:40px;
+.formemail {
+  width: 100%;
   flex-direction: column;
+  margin-top: 20px;
+
+}
+
+.formplace {
+  border: 1px solid #25262d;
+  text-decoration: none;
+  padding: 7px;
+  padding-block: 10px;
+  border-radius: 11px;
+  width: 90%;
+margin-top: 6px;
+  background: #18191e;
+}
+.formplace:focus {
+  border: 1px solid #2d2e37;
+  text-decoration: none;
+  padding: 7px;
+  padding-block: 10px;
+  border-radius: 11px;
+  width: 90%;
+margin-top: 6px;
+  background: #2c2e38;
+}
+.formplace2 {
+  border: 1px solid #25262d;
+  height: 100px;
+  text-decoration: none;
+  padding: 7px;
+  padding-block: 10px;
+  border-radius: 11px;
+  width: 90%;
+  
+margin-top: 6px;
+  background: #18191e;
+}
+.submit{
+  margin-top: 20px;
+  color: white;
+  border: 1px solid rgb(37, 175, 240);
+height: 40px;
+  border-radius: 10px;
+  width: 90%; 
+  background:  rgb(34, 164, 225);
 }
 
 @media (max-width: 1000px) {
-  section.contact-us form {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-  section.contact-us form div.flex {
-    align-items: start;
-    flex-direction: column;
-  }
-  section.contact-us .animation {
-    display: none;
-  }
-  section.contact-us #email,
-  section.contact-us #message {
-    width: 100%;
-    margin-left: 0;
-    padding: 0.7rem 0;
-    margin-top: 1rem;
-  }
-  section.contact-us .submit {
-    align-self: center;
-  }
   .flexcontact {
-    gap: 0rem;
-    margin-bottom: 40px;
-    flex-direction: column;
+    margin-inline: auto;
+    width: 95%;
+  flex-direction: column;
+    
+  } 
+  .partinfo {
+   
+    margin-inline: auto;
+    width: 90%;
+    
   }
-  .partinfo{
-    width: 100%;
-    padding-inline: 30px;
-  }
-  .partemail{
-    width: 100%;
-padding: 20px;
+  .partemail {
+    margin-inline: auto;
+    width: 90%;
+    
   }
 }

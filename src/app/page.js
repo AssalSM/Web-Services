@@ -15,6 +15,9 @@ import Footer from "../component/footer/Footer";
 import { SiCodeproject } from "react-icons/si";
 import Projectcard from "../component/Projectcard";
 import { FaThList } from "react-icons/fa";
+import Slider from "../component/Slider";
+import { isDragActive } from "framer-motion";
+// import Slider2 from "../component/slider2";
 
 export default function Home() {
   return (
@@ -43,16 +46,30 @@ export default function Home() {
       </div>
       <div id="project" className="projectsection">
         <dev className="titleallproject">
-           <FaThList/>
-           <h2> Project For Test </h2> 
-           <SiCodeproject />
-            :
+          
+          {/* <Image
+          className={styles.logo2}
+            src="/Pngtree.png"
+            alt="Next.js Logo"
+            width={390}
+            height={400}
+          /> */}
+          <div className="flex item">
+          <FaThList />
+            <p className="title2">
+             Projects List
+            </p>
+          </div>
+        
+         
         </dev>
         <div className="allproject">
           <Projectcard />
         </div>
       </div>
-
+      <div className="allcommint">
+        <Slider />
+      </div>
       <Footer />
     </main>
   );

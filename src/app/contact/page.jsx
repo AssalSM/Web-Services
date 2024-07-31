@@ -31,31 +31,19 @@ function Page() {
     <div className={styles.main}>
       <Header />
       <div className="flexcontact">
-        <div className="partemail">
-          <section id="contact" className="contact-us">
-            <div>
-              <h1 className="title">contact us</h1>
-              <div className="sub-title">
-                <p>We offer support for website design and development.</p>
-                <p>For inquiries or to create a new site,</p>
-                <p>
-                  please fill out the form below, or contact us via WhatsApp or
-                  other platforms.
-                </p>
-              </div>
-              <p className="sub-title"></p>
-              <p className="sub-title"></p>
-            </div>
-            <div className="flex">
+      <div className="partemail">
               <form onSubmit={handleSubmit}>
-                <div className="flex1">
-                  <label htmlFor="email">Email Address:</label>
+                <div className="formemail" >
+                  {/* <label htmlFor="email" >Email</label> */}
+                  <p  >Email</p>
                   <input
-                    autoComplete="off"
+                    autoComplete="on"
                     required
                     type="email"
                     name="email"
                     id="email"
+                    placeholder="example@email.com"
+                    className="formplace"
                   />
                   <ValidationError
                     prefix="Email"
@@ -63,13 +51,15 @@ function Page() {
                     errors={state.errors}
                   />
                 </div>
-                <div className="flex1">
-                  <label htmlFor="number"> Your Number : </label>
+                <div className="formemail">
+                  <p htmlFor="number">Number  </p>
                   <input
                     autoComplete="off"
+                    placeholder="+212 123456789"
                     type="text"
                     name="number"
                     id="email"
+                    className="formplace"
                   />
                   <ValidationError
                     prefix="number"
@@ -77,9 +67,12 @@ function Page() {
                     errors={state.errors}
                   />
                 </div>
-                <div className="flex" style={{ marginTop: "24px" }}>
-                  <label htmlFor="message"> your message:</label>
-                  <textarea required name="message" id="message"></textarea>
+                <div className="formemail" >
+                  <p htmlFor="message">  message</p>
+                  <textarea  className="formplace2" placeholder="just saying hi " required name="message" id="message">
+
+
+                  </textarea>
                   <ValidationError
                     prefix="Message"
                     field="message"
@@ -93,16 +86,26 @@ function Page() {
                 >
                   {state.submitting ? "submitting..." : "submit"}
                 </button>
-                {state.succeeded && <p>Thanks for joining!</p>}
+                {state.succeeded && <p className="thanksmessage">Thanks for joining!</p>}
               </form>
-              <div className=" animation"></div>
+             
             </div>
-          </section>
-        </div>
-        <div className="partinfo">
-          <p className="sub-title">
-            or contact us via WhatsApp or other platforms.
-          </p>
+        <div className="partinfo" >
+          <section id="contact" className="contact-us">
+            <div className="textinfo" >
+              <p className="title">let&apos;s connect</p>
+              <div className="sub-title">
+                <p>We offer support for website design and development.</p>
+                <p>For inquiries or to create a new site,</p>
+                <p>
+                  please fill out the form below, or contact us via WhatsApp or
+                  other platforms.
+                </p>
+              </div>
+             
+            </div>
+            <div className="socialicon" >
+          
           <span className="spancontact">
             <FaWhatsapp />
             <p>+212 768-866259</p>
@@ -115,15 +118,18 @@ function Page() {
           <Line />
           <span className="spancontact">
             <FaInstagram />
-            <p> @AssalDev</p>
+            <p> @Assal_Dev_</p>
           </span>
           <Line />
           <span className="spancontact">
             <FaTiktok />
-            <p> @AssalDev</p>
+            <p> @Assal_Dev</p>
           </span>
           <Line />
         </div>
+          </section>
+        </div>
+        
       </div>
     </div>
     </>

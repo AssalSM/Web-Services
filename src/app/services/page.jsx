@@ -13,6 +13,7 @@ import styles from "../page.module.css";
 import { FaShopify } from "react-icons/fa";
 import { LiaAws } from "react-icons/lia";
 import { GiEgyptianProfile } from "react-icons/gi";
+import Imageslider from "@/component/imageslider";
 
 //images
 const images = [
@@ -56,15 +57,10 @@ function Page() {
                 your skills and achievements in a unique and engaging way,
                 enhancing your online presence.
               </p>
-              {/* <Link href={"/"}>
-              <div className="title2">
-                <FaWhatsapp />
-                <p>contact</p>
-              </div>
-            </Link> */}
+              
             </div>
             <div className="images">
-              <Slider images={images} />
+            <Imageslider images={images} />
             </div>
           </main>
 
@@ -79,15 +75,10 @@ function Page() {
                 technologies and industry standards, ensuring seamless user
                 experience and maximizing online sales.
               </p>
-              {/* <Link href={"/"}>
-              <div className="title2">
-                <FaWhatsapp />
-                <p>contact now</p>
-              </div>
-            </Link> */}
+              
             </div>
             <div className="images">
-              <Slider images={images2} />
+              <Imageslider images={images2} />
             </div>
           </main>
 
@@ -102,15 +93,10 @@ function Page() {
                 services to optimize website performance and cater to your
                 evolving business needs.
               </p>
-              {/* <Link href={"/"}>
-              <div className="title2">
-                <FaWhatsapp />
-                <p>contact now</p>
-              </div>
-            </Link> */}
+            
             </div>
             <div className="images">
-              <Slider images={images3} />
+            <Imageslider images={images3} />
             </div>
           </main>
         </div>
