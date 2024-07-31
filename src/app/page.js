@@ -12,12 +12,11 @@ import styles from "./page.module.css";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-import { SiCodeproject } from "react-icons/si";
+
 import Projectcard from "../component/Projectcard";
 import { FaThList } from "react-icons/fa";
 import Slider from "../component/Slider";
-import { isDragActive } from "framer-motion";
-// import Slider2 from "../component/slider2";
+
 
 export default function Home() {
   return (

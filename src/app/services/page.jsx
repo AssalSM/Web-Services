@@ -2,7 +2,7 @@
 //import component
 import Header from "@/component/header/Header";
 import Footer from "@/component/footer/Footer";
-import Slider from "../../component/Slider";
+
 import React from "react";
 
 // style import
