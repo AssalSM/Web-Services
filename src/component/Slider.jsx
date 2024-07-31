@@ -4,7 +4,7 @@ import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import React from "react";
-import "./slide.css";
+import "./Slide.css";
 import Image from "next/image";
 
 const testimonials = [
