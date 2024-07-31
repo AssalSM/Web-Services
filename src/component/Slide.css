@@ -10,7 +10,7 @@
   padding: 30px;
   background-clip: initial;
 }
-.imageandtitle{
+.imageandtitle {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -18,26 +18,22 @@
 .testimonial-image {
   width: 150px;
   height: 150px;
-  /* border-radius: 50%; */
-  
   margin-bottom: 10px;
 }
-.namecommint{
+.namecommint {
   font-size: 21px;
   color: #ffffff;
   text-transform: uppercase;
   margin-top: 10px;
 }
 .commint {
-  
   font-size: 13px;
   color: #555;
 }
-  
-  @media (max-width: 900px) {
-    .testimonials-slider {
-      max-width: 400px;
-      margin: 0 ;
-    }
+
+@media (max-width: 900px) {
+  .testimonials-slider {
+    max-width: 400px;
+    margin: 0;
   }
-  
+}

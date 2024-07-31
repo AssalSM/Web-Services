@@ -68,12 +68,11 @@
   width: 80%;
 }
 
-
 @media (max-width: 1000px) {
   .title {
     font-size: 20px;
-   
-  font-weight: 300;
+
+    font-weight: 300;
   }
   .logo {
     width: 300px;
@@ -86,9 +85,9 @@
     width: 80%;
     margin-inline: auto;
   }
-  .logo2{
-  width: 100px;
-  height: 100px;
+  .logo2 {
+    width: 100px;
+    height: 100px;
   }
   .title {
     font-size: 25px;
@@ -107,7 +106,6 @@
   .logo {
     width: 80%;
     height: 250px;
-    
   }
   header button.menu {
     display: block;

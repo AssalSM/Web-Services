@@ -12,11 +12,9 @@ import styles from "./page.module.css";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
-
 import Projectcard from "../component/Projectcard";
 import { FaThList } from "react-icons/fa";
 import Slider from "../component/Slider";
-
 
 export default function Home() {
   return (
@@ -45,22 +43,10 @@ export default function Home() {
       </div>
       <div id="project" className="projectsection">
         <dev className="titleallproject">
-          
-          {/* <Image
-          className={styles.logo2}
-            src="/Pngtree.png"
-            alt="Next.js Logo"
-            width={390}
-            height={400}
-          /> */}
           <div className="flex item">
-          <FaThList />
-            <p className="title2">
-             Projects List
-            </p>
+            <FaThList />
+            <p className="title2">Projects List</p>
           </div>
-        
-         
         </dev>
         <div className="allproject">
           <Projectcard />
