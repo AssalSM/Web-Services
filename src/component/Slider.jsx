@@ -4,7 +4,6 @@ import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import React from 'react';
-import Image from 'next/image';
 import "./slide.css"
 
 

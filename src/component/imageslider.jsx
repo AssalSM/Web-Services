@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import React from 'react';
 import Image from 'next/image';
- import "./slide.css"
+import "./slide.css"
 
 
 
@@ -47,7 +47,7 @@ const Imageslider = ({images}) => {
              <div className="testimonial">
 
               
-            <img src={image} width={50} height={50} alt="image" className="testimonial-image" /> 
+            <Image src={image} width={50} height={50} alt="image" className="testimonial-image" /> 
             
             </div>    
           </SwiperSlide>
