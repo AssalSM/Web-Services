@@ -45,7 +45,7 @@ export default function Home() {
         <dev className="titleallproject">
           <div className="flex item">
             <FaThList />
-            <p className="title2">Projects List</p>
+            <p className="title4">Projects List</p>
           </div>
         </dev>
         <div className="allproject">
