@@ -93,7 +93,7 @@ function Page() {
         <div className="partinfo" >
           <section id="contact" className="contact-us">
             <div className="textinfo" >
-              <p className="title">let&apos;s connect</p>
+              <p className="title7">let&apos;s connect</p>
               <div className="sub-title">
                 <p>We offer support for website design and development.</p>
                 <p>For inquiries or to create a new site,</p>

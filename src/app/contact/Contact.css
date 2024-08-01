@@ -8,6 +8,7 @@ align-items: center;
 }
 .textinfo{
   text-align: center;
+
 }
 .partinfo {
   margin-left: 0;
@@ -17,7 +18,7 @@ align-items: center;
   flex-direction: column;
   text-align: center;
 }
-.title {
+.title7 {
   font-size: 25px;
   font-weight: 500;
   color: rgb(37, 175, 240);
