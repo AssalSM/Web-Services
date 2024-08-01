@@ -70,6 +70,7 @@ const Slider = () => {
             <SwiperSlide key={testimonial.id}>
               <div className="testimonial">
                 <Image
+                quality={75}
                   src={testimonial.image}
                   width={50}
                   height={50}
